@@ -16,9 +16,9 @@ UPLOAD_FOLDER = 'images/'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-@app.route("/store")
-def hello():
-    return "Hello World!"
+@app.route("/test_life")
+def response():
+    return "Response 200"
 
 @app.route('/', methods=['GET'])
 def index():
@@ -50,20 +50,9 @@ def image_post():
         return response
     return 'test'
 
-#@app.route('/post/idf', methods=['POST'])
-#def image_idf():
-#    if os.path.exists('images/full_image.png'):
-#        identification()
-#        return redirect(url_for('uploaded_file', filename='ouput_image.png'))
-#    else:
-#        return 'full_image not exists'
-    
+
     
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
     
-    
-#with open('result.png', 'rb') as file_xlsx:
-#    files = {'file': file_xlsx}
-#    res = requests.post("https://hello-egg-cookie.herokuapp.com/post/ticket", files=files)
