@@ -15,8 +15,11 @@ python app.py
 ```
 接著至　http://localhost:5000/
 就可以看到網頁開啟的畫面
-![Snipaste_2021-06-29_13-57-58](https://user-images.githubusercontent.com/30551460/123746975-e4efdc80-d8e4-11eb-8d09-0f97281523c6.png)
+
+<img src="https://user-images.githubusercontent.com/30551460/123747357-68113280-d8e5-11eb-9784-1d93f8619f7f.png" width="50%">
+
 
 接著下載一張範例圖檔，然後將這張範例圖檔上傳進行辨識
-![image](https://user-images.githubusercontent.com/30551460/123747130-1c5e8900-d8e5-11eb-9ad9-b54a4ded3fcc.png)
+
+<img src="https://user-images.githubusercontent.com/30551460/123747130-1c5e8900-d8e5-11eb-9ad9-b54a4ded3fcc.png" width="50%">
 
