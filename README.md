@@ -23,3 +23,6 @@ python app.py
 
 <img src="https://user-images.githubusercontent.com/30551460/123747130-1c5e8900-d8e5-11eb-9ad9-b54a4ded3fcc.png" width="50%">
 
+此web app也可以部署到azure cloud或是heroku cloud搭建成一般的雲端服務
+
+https://pidvalve.herokuapp.com/
